@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+
+<div class="row justify-content-center mt-5 bg-light">
+    <div class="col-lg-10 col-md-5 bg-white border border-1 p-4 w-100 rounded-3">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Sr.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>City</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if(Model != null)
+                {
+                    int i = 1;
+                    foreach(System.Data.DataRow row in Model.Rows)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@row["name"]</td>
+                            <td>@row["email"]</td>
+                            <td>@row["mobile"]</td>
+                            <td>@row["city"]</td>
+                            <td>
+                                <a href="/Home/About/@row["id"]" class="nav-link text-info">Delete</a>
+                                <a href="/Home/Contact/@row["id"]" class="nav-link text-info">Edit</a>
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

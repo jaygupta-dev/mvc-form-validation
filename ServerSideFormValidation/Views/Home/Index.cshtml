@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row justify-content-center mt-5 bg-light">
+    <div class="col-lg-10 col-md-5 bg-white border border-1 p-4 w-50 rounded-3">
+
+        <form method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+                @if (ViewBag.fieldname == "name")
+                {
+                    <div class="form-text text-danger">@ViewBag.errormsg</div>
+                }
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" name="email">
+                @if (ViewBag.fieldname == "email")
+                {
+                    <div class="form-text text-danger">@ViewBag.errormsg.</div>
+                }
+            </div>
+            <div class="mb-3">
+                <label for="mobile" class="form-label">Mobile</label>
+                <input type="text" class="form-control" id="mobile" name="mobile">
+                @if (ViewBag.fieldname == "mobile")
+                {
+                    <div class="form-text text-danger">@ViewBag.errormsg.</div>
+                }
+            </div>
+            <div class="mb-3">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" id="city" name="city">
+                @if (ViewBag.fieldname == "city")
+                {
+                    <div class="form-text text-danger">@ViewBag.errormsg.</div>
+                }
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

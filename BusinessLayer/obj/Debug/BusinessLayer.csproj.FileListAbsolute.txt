@@ -1,0 +1,11 @@
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\bin\Debug\BusinessLayer.dll
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\bin\Debug\BusinessLayer.pdb
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\bin\Debug\DataLayer.dll
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\bin\Debug\ModelLayer.dll
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\bin\Debug\DataLayer.pdb
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\bin\Debug\ModelLayer.pdb
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\obj\Debug\BusinessLayer.dll
+J:\JAYANENDRA\JAYA GUPTA\STUDY MATERIALSsss\DOT_net\ServerSideFormValidation\BusinessLayer\obj\Debug\BusinessLayer.pdb
